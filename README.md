@@ -1,4 +1,4 @@
-# 📝 To-Do List Angular
+# 📝 TaskList Angular
 
 Una aplicación sencilla de lista de tareas desarrollada en **Angular** con **PrimeNG**.  
 Permite añadir, marcar como hechas y eliminar tareas. Las tareas se almacenan en **LocalStorage**, por lo que no se pierden al recargar la página.
