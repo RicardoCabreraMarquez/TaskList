@@ -28,4 +28,4 @@ Permite añadir, marcar como hechas y eliminar tareas. Las tareas se almacenan e
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/todo-list-angular.git
+   git clone https://github.com/RicardoCabreraMarquez/TaskList.git
