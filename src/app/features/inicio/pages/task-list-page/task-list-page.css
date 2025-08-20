@@ -1,0 +1,58 @@
+.page-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-inputgroup {
+    width: auto !important;
+    margin-top: 1rem !important;
+}
+
+.tarea {
+    width: 54.4rem;
+    height: auto;
+    border: 0.17rem solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+
+.tarea p {
+    width: 30rem;
+    text-align: center;
+}
+
+.tarea .check-hecho p {
+    width: auto;
+    margin-left: 0.5rem;
+}
+
+.check-hecho {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+    --p-button-primary-background: #3669FF;
+    --p-button-primary-border-color: #3669FF;
+    --p-button-primary-hover-background: #0040FF;
+    --p-button-primary-hover-border-color: #0040FF;
+}
+
+.boton-eliminar {
+    --p-button-primary-background: #FC0D0D;
+    --p-button-primary-border-color: #FC0D0D;
+    --p-button-primary-hover-background: #CF0202;
+    --p-button-primary-hover-border-color: #CF0202;
+}
+
+.version {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    inset-inline-start: 1pc;
+}

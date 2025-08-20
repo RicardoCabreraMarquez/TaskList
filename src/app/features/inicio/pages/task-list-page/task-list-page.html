@@ -1,0 +1,23 @@
+<div class="page-center">
+    <h1>Lista de Tareas</h1>
+
+    <p-inputgroup>
+        <input #inputRef pInputText style="width: 50rem;"  placeholder="Lista de tarea" />
+        <p-button class="boton" label="Añadir" (click)="saveTaskLocalStorage(inputRef.value)" />
+    </p-inputgroup>
+
+    @for (tarea of listaTareas; track tarea.descripcionTarea) {
+        <div class="tarea">
+            <div class="check-hecho">
+                <p-checkbox [(ngModel)]="tarea.estaHecha" [binary]="true" (change)="updateTaskDone(tarea.descripcionTarea)" /> 
+                <p>Hecha</p>
+            </div>
+
+            <p>{{ tarea.descripcionTarea }}</p>
+
+            <p-button class="boton-eliminar" icon="pi pi-trash" aria-label="Save" (click)="deleteTask(tarea.descripcionTarea)"/>
+        </div>
+    }
+
+    <p class="version">Version: {{ version }}</p>
+</div>
